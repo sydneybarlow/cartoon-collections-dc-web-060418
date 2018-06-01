@@ -16,6 +16,8 @@ def long_planeteer_calls
   short_words = ["puff", "go", "two"]
   assorted_words = ["two", "go", "industrious", "bop"]
   
+  
+  
 end
 
 # [1, 3, 5, 7].find do |num|
