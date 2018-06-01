@@ -23,6 +23,6 @@ def find_the_cheese(ingredients)
  if cheese_types.find do |cheese|
     cheese[0]
   else "american"
-    nil
+    puts
   end
 end
