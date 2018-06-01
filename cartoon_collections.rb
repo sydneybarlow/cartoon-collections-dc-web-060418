@@ -16,6 +16,11 @@ def long_planeteer_calls
   
 end
 
+# [1, 3, 5, 7].find do |num|
+#   num.odd?
+# end
+
+
 # def find_the_cheese# code an argument here
 #   # the array below is here to help
 #   cheese_types = ["cheddar", "gouda", "camembert"]
