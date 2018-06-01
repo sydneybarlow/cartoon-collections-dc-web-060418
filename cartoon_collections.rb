@@ -24,5 +24,5 @@ def find_the_cheese(ingredients)
   ingredients.find do |cheese|
     cheese[0]
   end
-  ingredients.
+  puts ingredients
 end
