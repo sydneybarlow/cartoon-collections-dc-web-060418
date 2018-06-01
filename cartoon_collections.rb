@@ -23,4 +23,5 @@ def find_the_cheese(ingredients)
   cheese_types.find do |cheese|
     cheese[0]
   end
+  cheese_types.include?(american)
 end
