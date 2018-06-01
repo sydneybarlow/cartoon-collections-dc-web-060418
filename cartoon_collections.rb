@@ -23,4 +23,5 @@ def find_the_cheese(ingredients)
   ingredients = cheese_types
   ingredients.find do |cheese|
     cheese.first
+  end
 end
