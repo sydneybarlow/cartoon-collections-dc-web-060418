@@ -20,10 +20,9 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.find do |cheese|
+ if cheese_types.find do |cheese|
     cheese[0]
+  else "american"
+    nil
   end
-  cheese_types.find do |cheese|
-    "american"
-  end  
 end
